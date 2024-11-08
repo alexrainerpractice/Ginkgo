@@ -86,6 +86,14 @@ a{
     visibility: visible; /* Initially visible */
   }
 
+.random-image {
+    position: absolute;
+    width: 500px; /* Image size */
+    height: 500px;
+    transition: opacity 0.5s ease; /* Fade-out transition */
+}
+
+
 
 
 @media (max-width: 640px) {
@@ -113,6 +121,9 @@ a{
         transform: translate(-50%, -75%);
     }
 
-    
+    .random-image {
+    width: 250px; /* Image size */
+    height: 250px;
+    }
 
-  }
+}
