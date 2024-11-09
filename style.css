@@ -16,6 +16,7 @@ html, body{
     color: white;
     margin: 0;
     overflow: hidden;
+    touch-action: none;
 }
 
 .text-1{
